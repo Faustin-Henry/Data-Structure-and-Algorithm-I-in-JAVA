@@ -37,6 +37,8 @@ Graph Algorithms
 
 
 📁 Structure
+
+```
 src/
 ├── foundations/
 │   ├── StackQueue/
@@ -59,18 +61,28 @@ src/
     ├── DirectedGraphs/
     ├── MST/
     └── ShortestPaths/
+``` 
 
 🚀 Getting Started
 Requirements: Java 11 or later
+
 bash# Clone the repository
+```
 git clone https://github.com/Faustin-Henry/Data-Structure-and-Algorithm-I-in-JAVA.git
+```
+``` 
 cd Data-Structure-and-Algorithm-I-in-JAVA
+``` 
 
 # Compile a specific file
+``` 
 javac src/sorting/Mergesort/Mergesort.java
+``` 
 
 # Run it
+``` 
 java -cp src sorting.Mergesort.Mergesort
+```
 
 ## 📖 Reference
 
