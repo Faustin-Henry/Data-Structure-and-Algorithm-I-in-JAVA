@@ -78,27 +78,21 @@ src/
     └── ShortestPaths/
 ``` 
 
-🚀 Getting Started
-Requirements: Java 11 or later
+## 🚀 Getting Started
 
-bash# Clone the repository
-```
+**Requirements:** Java 11 or later
+
+```bash
+# Clone the repository
 git clone https://github.com/Faustin-Henry/Data-Structure-and-Algorithm-I-in-JAVA.git
-```
-``` 
 cd Data-Structure-and-Algorithm-I-in-JAVA
-``` 
 
-# Compile a specific file
-``` 
-javac src/sorting/Mergesort/Mergesort.java
-``` 
+# Compile (from the repo root)
+javac -d out src/sorting/Mergesort/Mergesort.java
 
-# Run it
-``` 
-java -cp src sorting.Mergesort.Mergesort
+# Run
+java -cp out sorting.Mergesort.Mergesort
 ```
-
 ## 📖 Reference
 
 Sedgewick, R. & Wayne, K. — Algorithms, 4th Edition (Princeton University Press)
