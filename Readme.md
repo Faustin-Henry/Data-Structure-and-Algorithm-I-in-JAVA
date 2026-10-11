@@ -3,6 +3,10 @@
 A collection of Java implementations covering core data structures and algorithm concepts, built alongside coursework in CS2920 at the University of Prince Edward Island. 
 The reference textbook is Algorithms, 4th ed. by Robert Sedgewick and Kevin Wayne.
 
+## Who is this for?
+
+This repository is for anyone learning data structures and algorithms, and it assumes only a basic familiarity with programming syntax and semantics. The code is written in Java, but the concepts and logic are what matter, so it can be easily rewritten in most other languages. Program output is interactive, making the behavior of each structure and algorithm easier to follow and understand.
+
 ## Topics Covered
 
 ### Foundations
