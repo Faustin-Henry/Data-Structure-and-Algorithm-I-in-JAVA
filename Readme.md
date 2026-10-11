@@ -3,38 +3,49 @@
 A collection of Java implementations covering core data structures and algorithm concepts, built alongside coursework in CS2920 at the University of Prince Edward Island. 
 The reference textbook is Algorithms, 4th ed. by Robert Sedgewick and Kevin Wayne.
 
-Topics Covered
+## Topics Covered
 
-Foundations
-    Algorithm Analysis — Big-O notation, time, and space complexity
-    Stacks & Queues — Array and linked-list based implementations
-    Union-Find — Quick Union, Weighted Union-Find with path compression
+### Foundations
+> **Algorithm Analysis** —-> *Big-O notation, time, and space complexity*.
+> 
+> **Stacks & Queues** —-> *Array and linked-list based implementations*.
+> 
+> **Union-Find** —-> *Quick Union, Weighted Union-Find with path compression*.
 
-Sorting Algorithms
-    Mergesort — Top-down and bottom-up approaches
-    Quicksort — Partitioning, 3-way quicksort
-    Heapsort — In-place sorting using a binary heap
+### Sorting Algorithms
+> **Mergesort** —-> *Top-down and bottom-up approaches*.
+>
+> **Quicksort** —-> *Partitioning, 3-way quicksort*.
+>
+> **Heapsort** —-> *In-place sorting using a binary heap*.
 
-Priority Queues
-    Binary Heaps — Min-heap and max-heap implementations
-    Priority Queue ADT — Insert, delMax, and swim/sink operations
+### Priority Queues
+> **Binary Heaps** —-> *Min-heap and max-heap implementations*.
+>
+> **Priority Queue ADT** —-> *Insert, delMax, and swim/sink operations*.
 
-Symbol Tables & Search Trees
-    Binary Search Trees (BST) — Insertion, search, floor, rank, deletion (Hibbard)
-    2-3 Trees — Balanced search tree with 2-nodes and 3-nodes
-    Left-Leaning Red-Black Trees (LLRB) — Insertion and deletion with rotations
-    Red-Black Tree Deletion — Full deletion including fixup operations
+### Symbol Tables & Search Trees
+> **Binary Search Trees (BST)** —-> *Insertion, search, floor, rank, deletion (Hibbard)*.
+>
+> **2-3 Trees** —-> *Balanced search tree with 2-nodes and 3-nodes*.
+>
+> **Left-Leaning Red-Black Trees (LLRB)** —-> *Insertion and deletion with rotations*.
+>
+> **Red-Black Tree Deletion** —-> *Full deletion including fixup operations*.
 
-Hash Tables
-    Separate Chaining — Linked-list buckets
-    Linear Probing — Open addressing with Robin Hood hashing
+### Hash Tables
+> **Separate Chaining** —-> *Linked-list buckets*.
+>
+> **Linear Probing** —-> *Open addressing with Robin Hood hashing*.
 
-Graph Algorithms
-    Undirected Graphs — BFS, DFS, connected components
-    Directed Graphs — Topological sort, Kosaraju's strongly connected components (SCC)
-    Minimum Spanning Trees — Kruskal's algorithm
-    Shortest Paths — Dijkstra's algorithm
-
+### Graph Algorithms
+> **Undirected Graphs** —-> *BFS, DFS, connected components*.
+>
+> **Directed Graphs** —-> *Topological sort, Kosaraju's strongly connected components (SCC)*.
+>
+> **Minimum Spanning Trees** —-> *Kruskal's algorithm*.
+>
+> **Shortest Paths** —-> *Dijkstra's algorithm*.
 
 📁 Structure
 
