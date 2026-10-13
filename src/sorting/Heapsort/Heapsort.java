@@ -1,6 +1,9 @@
 package sorting.Heapsort;
 
 import java.util.Arrays;
+import java.util.Arrays;
+import java.util.Scanner;
+
 
 /**
  * Heapsort — optimal <em>guaranteed</em> comparison sort: O(N log N) worst case, in place.
@@ -64,11 +67,37 @@ public class Heapsort {
         pq[j - 1] = swap;
     }
 
+
     public static void main(String[] args) {
         System.out.println("=== Heapsort ===\n");
 
-        Integer[] data = { 38, 27, 43, 3, 9, 82, 10, 21, 55, 14 };
-        System.out.println("before: " + Arrays.toString(data));
+        Scanner in = new Scanner(System.in);
+        Integer[] data = null;
+
+        while (data == null) {
+            System.out.print("Enter numbers to sort (separated by spaces or commas),\n"
+                    + "or press Enter to use a sample list: ");
+            String line = in.nextLine().trim();
+
+            if (line.isEmpty()) {
+                data = new Integer[] { 38, 27, 43, 3, 9, 82, 10, 21, 55, 14 };
+                System.out.println("Using sample data.");
+                break;
+            }
+
+            String[] parts = line.split("[,\\s]+");
+            Integer[] parsed = new Integer[parts.length];
+            try {
+                for (int i = 0; i < parts.length; i++) {
+                    parsed[i] = Integer.parseInt(parts[i]);
+                }
+                data = parsed;
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter whole numbers only. Try again.\n");
+            }
+        }
+
+        System.out.println("\nbefore: " + Arrays.toString(data));
         long t0 = System.nanoTime();
         sort(data);
         long t1 = System.nanoTime();
@@ -90,5 +119,7 @@ public class Heapsort {
         System.out.println("The only sort that is simultaneously in-place AND worst-case N log N —");
         System.out.println("but it is not stable and has poor cache behavior, so quicksort");
         System.out.println("usually wins in practice.");
+
+        in.close();
     }
 }
